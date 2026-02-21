@@ -1,0 +1,23 @@
+# Reglas generales para todos los bots
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /config/
+Disallow: /assets/css/admin.css
+Disallow: /assets/js/admin.js
+
+# Excepción explícita para asegurar indexado en redes sociales (opcional pero seguro)
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Ubicación del Sitemap
+Sitemap: https://eduolihez.com/sitemap.xml

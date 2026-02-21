@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Eduardo Olivares | SysAdmin, Cybersecurity & Cloud en Barcelona</title>
+    <meta name="description" content="Portfolio de Eduardo Olivares. SysAdmin & SecOps en DAGRAM (Badalona). Especialista en Ciberseguridad, Python, Hardening, Docker y soluciones Cloud.">
+    <meta name="keywords" content="Eduardo Olivares, SysAdmin, Ciberseguridad, SecOps, Badalona, Barcelona, Python, Fortinet, Docker, Cloud, Automatización, Redes">
+    <meta name="author" content="Eduardo Olivares">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://eduolihez.com/">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://eduolihez.com/">
+    <meta property="og:title" content="Eduardo Olivares | Cloud & Cybersecurity">
+    <meta property="og:description" content="Especialista en blindar infraestructuras críticas y automatizar operaciones. Transformo problemas complejos en arquitecturas seguras.">
+    <meta property="og:image" content="https://eduolihez.com/src/eduolihez_pfp.JPG">
+    <meta property="og:locale" content="es_ES">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eduardo Olivares | SysAdmin & Cybersec">
+    <meta name="twitter:description" content="Portfolio profesional. SysAdmin & SecOps. Python, Hardening y Cloud.">
+    <meta name="twitter:image" content="https://eduolihez.com/src/eduolihez_pfp.JPG">
+
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Eduardo Olivares",
+      "url": "https://eduolihez.com",
+      "image": "https://eduolihez.com/src/eduolihez_pfp.JPG",
+      "jobTitle": "SysAdmin & Cybersecurity Specialist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "DAGRAM"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Institut Cultural Laietània"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/eduolihez",
+        "https://github.com/eduolihez"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Badalona",
+        "addressRegion": "Barcelona",
+        "addressCountry": "ES"
+      }
+    }
+    </script>
+</head>
+<body>
+    
+    <div class="noise-overlay"></div>
+    <div class="ambient-glow"></div>
+
+    <div class="lang-switch">
+        <button class="lang-btn active" data-lang="es" aria-label="Cambiar a Español">ES</button>
+        <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+    </div>
+
+    <main class="bento-grid">
+        
+        <section class="card profile-hero">
+            <div class="profile-content">
+                <div class="memoji-container">
+                    <img src="src/eduolihez_pfp.JPG" alt="Foto de perfil de Eduardo Olivares">
+                    <div class="status-indicator">
+                        <span class="ping"></span>
+                    </div>
+                </div>
+                <div class="profile-text">
+                    <h1>Eduardo Olivares</h1>
+                    <h2 data-i18n="role">SysAdmin & Cybersec en <span class="highlight">DAGRAM</span></h2>
+                    <p data-i18n="bio">Especialista en blindar infraestructuras críticas y automatizar operaciones. Transformo problemas complejos en arquitecturas seguras.</p>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <a href="src/Edu_Olivares_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn primary">
+                    <i class="fas fa-file-pdf"></i> <span data-i18n="download_cv">Descargar CV</span>
+                </a>
+                <button class="btn secondary" id="open-pro-modal">
+                    <i class="fas fa-plus"></i> <span data-i18n="more_info">Más Info</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="card social-card">
+            <h3 data-i18n="social_title">Conecta Conmigo</h3>
+            <div class="social-grid-links">
+                <a href="https://www.linkedin.com/in/eduolihez" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/eduolihez" target="_blank" rel="noopener noreferrer" class="social-btn github" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:eduolihez@gmail.com" class="social-btn email" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://instagram.com/eduolihez" target="_blank" rel="noopener noreferrer" class="social-btn instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="card now-card">
+            <h3 data-i18n="now_title">Ahora mismo</h3>
+            <ul class="now-list">
+                <li class="now-item">
+                    <span class="now-dot work"></span>
+                    <span data-i18n="now_1">SecOps &amp; SysAdmin en DAGRAM</span>
+                </li>
+                <li class="now-item">
+                    <span class="now-dot build"></span>
+                    <span data-i18n="now_2">Construyendo herramientas de seguridad</span>
+                </li>
+                <li class="now-item">
+                    <span class="now-dot location"></span>
+                    <span data-i18n="now_3">Badalona · Disponible en remoto</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card location-card">
+            <div class="map-container">
+                <iframe 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0" 
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=2.2150%2C41.4300%2C2.2750%2C41.4650&amp;layer=mapnik&amp;marker=41.4469%2C2.2450" 
+                    title="Mapa de Badalona">
+                </iframe>
+            </div>
+            <div class="glass-overlay">
+                <div class="time-widget">
+                    <span id="local-time">--:--</span>
+                    <small>Badalona, ES</small>
+                </div>
+                <div class="location-icon">
+                    <i class="fas fa-location-arrow"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="card experience-card">
+            <h3 data-i18n="career_title"><i class="fas fa-briefcase"></i> Trayectoria</h3>
+            <div class="timeline">
+                <div class="timeline-item current">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <strong>DAGRAM</strong>
+                        <span data-i18n="job_current">Cybersecurity & Systems</span>
+                        <small data-i18n="date_current">2025 - Actualidad</small>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time-dot"></div>
+                    <div class="time-content">
+                        <strong>Inst. Cultural Laietània</strong>
+                        <span data-i18n="job_prev">Técnico de Sistemas</span>
+                        <small>2024 - 2025</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card highlight-card">
+            <div class="trophy-icon"><i class="fas fa-trophy"></i></div>
+            <div class="highlight-content">
+                <span class="badge-gold" data-i18n="award_badge">1er Lugar</span>
+                <h3>Hackathon TecnoCampus</h3>
+                <p data-i18n="award_desc">Ganador con "Dewi", solución IoT para monitorización hídrica.</p>
+            </div>
+        </section>
+
+        <section class="card services-card">
+            <h3 data-i18n="skills_title">Áreas de Impacto</h3>
+            <div class="services-list">
+                <div class="service-pill">
+                    <i class="fas fa-shield-alt red"></i>
+                    <div>
+                        <strong data-i18n="skill_1_title">SecOps & Hardening</strong>
+                        <small data-i18n="skill_1_desc">Fortinet, Firewalls</small>
+                    </div>
+                </div>
+                <div class="service-pill">
+                    <i class="fab fa-python blue"></i>
+                    <div>
+                        <strong data-i18n="skill_2_title">Python Automation</strong>
+                        <small data-i18n="skill_2_desc">Scripting, APIs</small>
+                    </div>
+                </div>
+                <div class="service-pill">
+                    <i class="fas fa-network-wired green"></i>
+                    <div>
+                        <strong data-i18n="skill_3_title">SysAdmin & Redes</strong>
+                        <small data-i18n="skill_3_desc">Linux, Windows, AD</small>
+                    </div>
+                </div>
+                <div class="service-pill">
+                    <i class="fab fa-docker purple"></i>
+                    <div>
+                        <strong data-i18n="skill_4_title">Cloud & Virtualización</strong>
+                        <small data-i18n="skill_4_desc">Docker, VMware</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a href="https://followguard.eduolihez.com" target="_blank" rel="noopener noreferrer" class="card project-card p-1">
+            <div class="project-content">
+                <div class="project-top">
+                    <i class="fas fa-user-secret"></i>
+                    <span class="project-tag">Cyber Intelligence</span>
+                </div>
+                <h3>FollowGuard</h3>
+                <p data-i18n="proj_1_desc">Detección de bots en Instagram.</p>
+            </div>
+            <i class="fas fa-arrow-up-right-from-square arrow-icon"></i>
+        </a>
+
+        <a href="https://mesbadalona.eduolihez.com" target="_blank" rel="noopener noreferrer" class="card project-card p-2">
+            <div class="project-content">
+                <div class="project-top">
+                    <i class="fas fa-city"></i>
+                    <span class="project-tag">Citizen Platform</span>
+                </div>
+                <h3>Més Badalona</h3>
+                <p data-i18n="proj_2_desc">Gestión de incidencias ciudadanas.</p>
+            </div>
+            <i class="fas fa-arrow-up-right-from-square arrow-icon"></i>
+        </a>
+
+        <a href="https://passwdcentinel.eduolihez.com" target="_blank" rel="noopener noreferrer" class="card project-card p-3">
+            <div class="project-content">
+                <div class="project-top">
+                    <i class="fas fa-key"></i>
+                    <span class="project-tag">Security Tool</span>
+                </div>
+                <h3>Passwd Centinel</h3>
+                <p data-i18n="proj_3_desc">Gestor de contraseñas seguro.</p>
+            </div>
+            <i class="fas fa-arrow-up-right-from-square arrow-icon"></i>
+        </a>
+
+        <section class="card certs-card">
+            <h3 data-i18n="certs_title">Certificaciones</h3>
+            <div class="certs-grid">
+                <a href="https://www.credly.com/badges/6ea9eebb-bf6b-4369-82ee-845195fc8652/public_url" target="_blank" rel="noopener noreferrer" class="cert-btn" title="Ver Credencial Python">
+                    <div class="cert-icon-box"><i class="fab fa-python"></i></div>
+                    <span class="cert-label">Python Spec.</span>
+                    <i class="fas fa-external-link-alt arrow-mini"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/eduolihez/details/certifications/" target="_blank" rel="noopener noreferrer" class="cert-btn" title="Ver Certificación Microsoft">
+                    <div class="cert-icon-box"><i class="fas fa-shield-virus"></i></div>
+                    <span class="cert-label">Cybersec MS</span>
+                    <i class="fas fa-external-link-alt arrow-mini"></i>
+                </a>
+                <a href="src/First_Certificate.jpg" target="_blank" rel="noopener noreferrer" class="cert-btn" title="Ver Certificado Inglés">
+                    <div class="cert-icon-box"><i class="fas fa-language"></i></div>
+                    <span class="cert-label">English B2</span>
+                    <i class="fas fa-external-link-alt arrow-mini"></i>
+                </a>
+                <a href="https://www.credly.com/badges/cc7885f6-f69b-473a-ab89-e3a07f7a49a3/public_url" target="_blank" rel="noopener noreferrer" class="cert-btn" title="Ver Credencial IC3">
+                    <div class="cert-icon-box"><i class="fas fa-globe"></i></div>
+                    <span class="cert-label">IC3 Digital</span>
+                    <i class="fas fa-external-link-alt arrow-mini"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="card contact-card">
+            <div class="contact-content">
+                <h3 data-i18n="contact_title">Hablemos</h3>
+                <p data-i18n="contact_desc">¿Tienes un proyecto en mente? Envíame un mensaje directo.</p>
+                
+                <form id="contact-form" action="https://formspree.io/f/mnnebybn" method="POST" class="contact-form-grid">
+                    <div class="form-group">
+                        <input type="text" name="name" data-placeholder="name_ph" placeholder="Nombre" required class="form-input" aria-label="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required class="form-input" aria-label="Email">
+                    </div>
+                    <div class="form-group full">
+                        <textarea name="message" data-placeholder="msg_ph" placeholder="¿Cómo puedo ayudarte?" rows="3" required class="form-input" aria-label="Mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary submit-btn">
+                        <span data-i18n="send_btn">Enviar Mensaje</span> <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <dialog id="pro-modal" class="modal-glass">
+        <div class="modal-wrapper">
+            <button id="close-modal" class="close-btn" aria-label="Cerrar modal"><i class="fas fa-times"></i></button>
+            <header class="modal-header">
+                <h2 data-i18n="modal_title">Perfil Profesional Completo</h2>
+                <p data-i18n="modal_subtitle">Detalles extendidos, stack tecnológico y portfolio completo.</p>
+            </header>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3 data-i18n="about_me">Sobre Mí</h3>
+                    <p data-i18n="bio_full">
+                        Técnico de Sistemas apasionado por la ciberseguridad (SecOps) y la automatización. 
+                        Con experiencia en soporte Nivel 1 y 2 para más de 100 usuarios y gestión de redes. 
+                        Crecí desmontando hardware y ahora construyo arquitecturas seguras. 
+                        Enfocado en soluciones eficientes usando Python y tecnologías Cloud.
+                    </p>
+                </div>
+                <div class="modal-section">
+                    <h3 data-i18n="all_projects">Portfolio de Proyectos</h3>
+                    <div class="projects-grid-full">
+                        <a href="https://followguard.eduolihez.com" target="_blank" rel="noopener noreferrer" class="proj-item">
+                            <i class="fas fa-user-secret"></i>
+                            <div><strong>FollowGuard</strong><small>Instagram Analytics & Security</small></div>
+                        </a>
+                        <a href="https://mesbadalona.eduolihez.com" target="_blank" rel="noopener noreferrer" class="proj-item">
+                            <i class="fas fa-city"></i>
+                            <div><strong>Més Badalona</strong><small>Plataforma Ciudadana PHP</small></div>
+                        </a>
+                        <a href="https://passwdcentinel.eduolihez.com" target="_blank" rel="noopener noreferrer" class="proj-item">
+                            <i class="fas fa-key"></i>
+                            <div><strong>Passwd Centinel</strong><small>Gestor de Contraseñas Seguro</small></div>
+                        </a>
+                        <a href="/rouletteos/" target="_blank" rel="noopener noreferrer" class="proj-item">
+                            <i class="fas fa-dice"></i>
+                            <div><strong>RouletteOS</strong><small>SaaS Gamificación Aula</small></div>
+                        </a>
+                        <a href="https://eduolihez.com/guardianes-digitales/index.html" target="_blank" rel="noopener noreferrer" class="proj-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div><strong>Guardianes Digitales</strong><small>Curso de Ciberconcienciación</small></div>
+                        </a>
+                        <div class="proj-item" title="Hackathon Winner">
+                            <i class="fas fa-water"></i>
+                            <div><strong>Dewi (IoT)</strong><small>Ganador Hackathon '25</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-section">
+                    <h3 data-i18n="stack_full">Stack Tecnológico Completo</h3>
+                    <div class="skills-tags">
+                        <span>Python</span><span>Bash</span><span>Go</span><span>PowerShell</span>
+                        <span>Linux Server</span><span>Windows Server</span><span>Active Directory</span>
+                        <span>Fortinet</span><span>Docker</span><span>VMware</span>
+                        <span>HTML5</span><span>CSS3</span><span>JS</span><span>PHP</span><span>MySQL</span>
+                        <span>Git</span><span>Raspberry Pi</span><span>Arduino</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.linkedin.com/in/eduolihez" target="_blank" rel="noopener noreferrer" class="btn primary full-width">
+                    <i class="fab fa-linkedin"></i> <span data-i18n="view_linkedin">Ver Perfil Completo en LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
